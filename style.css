@@ -63,19 +63,13 @@ section {
 }
 
 .profile-img {
-    position: absoulute;
-    top: 0;
-    left: 50%;
-    transform: translateX(-50%) scale(0);
-    width: 120px;
-    height: 120px;
-    border-radius: 50%;
-    transition: 0.3s ease;
-    z-index: 1;
+    opacity: 0;
+    transform: translateX(-50%) scale(0.8);
 }
 
 .hero-logo:hover .profile-img {
-    transform: translateX(-50%) scale(1.2);
+    opacity: 1;
+    transform: translateX(-50%) scale(1.1);
 }
 
 /* TEXT */
