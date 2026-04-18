@@ -153,6 +153,12 @@ section {
     color: #00ffcc;
 }
 
+.nav-links a.active {
+    color: #00ffcc;
+    border-bottom: 2px solid #00ffcc;
+    padding-bottom: 3px;
+}
+
 .about {
     padding: 100px 20px;
     background: linear-gradient(135deg, #000000, #001a1a);
