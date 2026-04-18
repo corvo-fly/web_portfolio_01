@@ -9,6 +9,15 @@ html {
   scroll-behavior: smooth;
 }
 
+section {
+    min-height: 100v;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding: 80px 20px;
+}
+
+
 /* HERO BACKGROUND */
 .hero {
     height: 100vh;
