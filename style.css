@@ -42,19 +42,40 @@ section {
     max-width: 600px;
 }
 
+.hero-logo {
+    position: relative;
+    display: inline-block;
+}
+
 /* LOGO CIRCLE */
 .logo-circle {
-    width: 80px;
-    height: 80px;
-    background: #00ffcc;
-    color: black;
+    width: 100px;
+    height: 100px;
+    background: #00ffc3;
     border-radius: 50%;
     display: flex;
     align-items: center;
-    justify-content: center;
     margin: 0 auto 20px;
     font-weight: bold;
     font-size: 24px;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.profile_img {
+    position: absoulute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%) scale(0);
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    transition: 0.3s ease;
+    z-index: 1;
+}
+
+.hero-logo:hover .profile-img {
+    transform: translateX(-50%) scale(1.2);
 }
 
 /* TEXT */
