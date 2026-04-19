@@ -345,6 +345,29 @@ section {
     background: #00ccaa;
 }
 
+.project-card img { 
+    width:100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.links {
+    margin-top:10px;
+}
+
+.links a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: #00ffcc;
+    font-weight: bold;
+}
+
+.disabled {
+    color: gray;
+    font-size: 12px;
+    margin-right: 10px;
+}
+
 /* SKILLS SECTION */
 .skills {
     padding: 100px 20px;
