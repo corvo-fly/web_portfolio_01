@@ -294,17 +294,26 @@ section {
 
 /* CARD */
 .project-card {
-    background: rgba(0, 0, 0, 0.7);
-    padding: 20px;
-    width: 250px;
+    background: rgba(255,255,255,0.02);
+    border: 1px solid rgba(0,255,204,0.2);
     border-radius: 15px;
-    box-shadow: 0 0 15px rgba(0, 255, 204, 0.2);
+    padding: 20px;
+    width: 300px;
     transition: 0.3s ease;
+    box-shadow: 0 0 10px rgba(0,255,204,0.1);
 }
 
 .project-card:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 0 25px rgba(0,255,200,0.2)
+    transform: translateY(-10px) scale(1.02);
+    box-shadow: 0 0 25px #00ffcc;
+    border-color: #00ffcc;
+}
+
+.projects-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
 }
 
 /* TEXT */
@@ -319,12 +328,16 @@ section {
 }
 
 /* TAGS */
+.tags {
+    margin: 10px;
+}
+
 .tags span {
     display: inline-block;
-    margin: 5px;
     padding: 5px 10px;
     border: 1px solid #00ffcc;
-    border-radius: 15px;
+    border-radius: 20px;
+    margin: 3px;
     font-size: 12px;
 }
 
@@ -352,14 +365,19 @@ section {
 }
 
 .links {
-    margin-top:10px;
+    margin-top: 10px;
 }
 
 .links a {
     margin-right: 10px;
-    text-decoration: none;
     color: #00ffcc;
     font-weight: bold;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.links a:hover {
+    text-decoration: underline;
 }
 
 .disabled {
@@ -369,16 +387,11 @@ section {
 }
 
 .no-image {
-    width: 100%;
-    heigth: 200px;
     background: rgba(255,255,255,0.05);
-    broder-radius: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #aaa;
-    font-size: 14px;
-    margin-bottom: 10px;
+    color: #888;
 }
 
 /* SKILLS SECTION */
