@@ -398,6 +398,8 @@ section {
 .skills {
     padding: 80px 20px;
     text-align: center;
+    background: linear-gradient(135deg, #000000, #001a1a); 
+    color: white;
 }
 
 .skills-grid {
