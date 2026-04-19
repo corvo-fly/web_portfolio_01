@@ -15,7 +15,7 @@ body {
 }
 
 section {
-    height: 100vh;
+    min-height: 100vh;
     scroll-snap-align: start;
     display: flex;
     align-items: center;
@@ -68,7 +68,7 @@ section {
     font-size: 24px;
     font-weight: 700;
     letter-spacing: 2px;
-    box-shadow: 0 0 20px #00ffc3;
+    box-shadow: 0 0 10px #00ffc3;
     color: #000;
 }
 
@@ -180,7 +180,7 @@ section {
     height: 350px;
     object-fit: cover;
     border-radius: 20px;
-    box-shadow: 0 0 25px #00ffc3;
+    box-shadow: 0 0 10px #00ffc3;
     transition: 0.3s;
 }
 
@@ -215,7 +215,7 @@ section {
 }
 
 .card:hover {
-    box-shadow: 0 0 15px #00ffc3;
+    box-shadow: 0 0 10px #00ffc3;
 }
 
 /* MOBILE */
@@ -305,7 +305,7 @@ section {
 
 .project-card:hover {
     transform: translateY(-10px) scale(1.02);
-    box-shadow: 0 0 25px #00ffcc;
+    box-shadow: 0 0 10px #00ffcc;
     border-color: #00ffcc;
 }
 
