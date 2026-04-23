@@ -140,6 +140,14 @@ section {
     color: #00ffcc;
 }
 
+.logo a {
+    all: unset;
+    cursor: pointer;
+    color: #00ffcc;
+    font-weight: bold;
+    font-size: 20px;
+}
+
 /* LINKS */
 .nav-links {
     list-style: none;
