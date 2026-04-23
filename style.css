@@ -135,6 +135,11 @@ section {
     font-size: 20px;
 }
 
+.logo a {
+    text-decoration: none;
+    color: #00ffcc;
+}
+
 /* LINKS */
 .nav-links {
     list-style: none;
